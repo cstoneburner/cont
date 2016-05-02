@@ -6160,4 +6160,27 @@ nav .brand-logo {
 h6 {
   font-size: 1.2em; }
 
+.no-padding {
+  padding: 0px; }
+
+.no-margin {
+  margin: 0px; }
+
+.secondary-content {
+  color: lightgrey; }
+
+.card .card-action {
+  padding-left: 110px; }
+
+.collection .collection-item.avatar {
+  min-height: auto; }
+
+.collection .collection-item.white.avatar {
+  min-height: 36px; }
+
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 20px;
+  background-color: #ee6e73; }
+
 /*# sourceMappingURL=materialize.css.map */
