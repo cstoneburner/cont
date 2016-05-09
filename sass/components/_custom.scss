@@ -2,6 +2,10 @@ nav .brand-logo {
     padding-left: 30px;
 }
 
+h6 {
+  font-size: 1.2em;
+}
+
 .messages_right.card-panel {
     padding: 0;
   }
@@ -10,18 +14,6 @@ nav .brand-logo {
 .messages_right p {
   padding: 0 20px 0 20px;
     }
-
-h6 {
-  font-size: 1.2em;
-}
-
-.no-padding {
-  padding: 0px;
-}
-
-.no-margin {
-  margin: 0px;
-}
 
 .secondary-content {
   color: lightgrey;
@@ -43,4 +35,32 @@ footer.page-footer {
     margin-top: 0px;
     padding-top: 20px;
     background-color: #ee6e73;
+}
+
+/*center titles on bottom left cards*/
+.card-title {
+  display: table;
+  width: 100%;
+}
+
+.whiteboard .collection.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.whiteboard.col.s12.m7 {
+  padding-right: 0px;
+}
+
+.whiteboard .collection-item.avatar {
+  height: 68px;
+}
+
+/* Fix spacing at bottom of right col */
+ul.collection {
+  margin-bottom: 0px;
+}
+
+.upload-message {
+  height: 62px;
 }
